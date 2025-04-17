@@ -19,7 +19,6 @@ git clone --branch emacs-30.1 --depth 1 https://github.com/emacs-mirror/emacs.gi
 ./configure --prefix=/c/programs/emacs \
             --with-native-compilation \
             --without-dbus \
-            CC="gcc-10" \
             CFLAGS="-O2 -static" \
             LDFLAGS="-static -static-libgcc -static-libstdc++"
 
