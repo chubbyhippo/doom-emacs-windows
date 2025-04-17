@@ -10,7 +10,7 @@ cd /c/emacs
 git config --global core.autocrlf false
 ```
 ```shell
-git clone --branch emacs-30.1 --depth 1 git://git.sv.gnu.org/emacs.git
+git clone --branch emacs-30.1 --depth 1 https://github.com/emacs-mirror/emacs.git .
 ```
 ```shell
 ./autogen.sh
