@@ -20,8 +20,7 @@ git clone --branch emacs-30.1 --depth 1 https://github.com/emacs-mirror/emacs.gi
             --with-native-compilation \
             --without-dbus \
             CFLAGS="-O2 -static" \
-            LDFLAGS="-static -static-libgcc -static-libstdc++" \
-            --enable-static
+            LDFLAGS="-static -static-libgcc -static-libstdc++"
 
 ```
 ```shell
