@@ -18,7 +18,11 @@ git clone --branch emacs-30.1 --depth 1 git://git.sv.gnu.org/emacs.git
 ```shell
 ./configure --prefix=/c/programs/emacs \
             --with-native-compilation \
-            --without-dbus
+            --without-dbus \
+            CFLAGS="-O2 -static" \
+            LDFLAGS="-static -static-libgcc -static-libstdc++" \
+            --enable-static
+
 ```
 ```shell
 make -j$(nproc)
