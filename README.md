@@ -21,6 +21,9 @@ https://github.com/emacs-mirror/emacs/blob/master/nt/INSTALL.W64
   mingw-w64-x86_64-libtree-sitter
 ```
 ```shell
+mkdir /c/emacs
+```
+```shell
 git clone --branch emacs-30.1 --depth 1 git://git.sv.gnu.org/emacs.git
 ```
 ```shell
