@@ -40,3 +40,6 @@ git clone --branch emacs-30.1 --depth 1 git://git.sv.gnu.org/emacs.git
             --with-native-compilation \
             --without-dbus
 ```
+```shell
+make -j$(nproc)
+```
