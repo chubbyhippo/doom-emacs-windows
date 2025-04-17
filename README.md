@@ -1,4 +1,5 @@
 # doom-emacs-windows
+https://github.com/emacs-mirror/emacs/blob/master/nt/INSTALL.W64
 ```shell
 
 ```
