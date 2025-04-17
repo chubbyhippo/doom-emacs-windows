@@ -1,6 +1,6 @@
 # doom-emacs-windows
 ```shell
-./configure --prefix=/c/emacs \
+./configure --prefix=/c/ \
             --with-native-compilation \
             --without-dbus
 ```
