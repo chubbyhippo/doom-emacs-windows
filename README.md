@@ -27,7 +27,7 @@ mkdir /c/emacs
 cd /c/emacs
 ```
 ```shell
-git config core.autocrlf false
+git config --global core.autocrlf false
 ```
 ```shell
 git clone --branch emacs-30.1 --depth 1 git://git.sv.gnu.org/emacs.git
