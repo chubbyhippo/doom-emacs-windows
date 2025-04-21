@@ -18,7 +18,7 @@ git clone --branch emacs-30.1 --depth 1 https://github.com/emacs-mirror/emacs.gi
 ```shell
 ./configure --prefix=/c/emacs \
             --with-native-compilation \
-            --without-dbus \
+            --without-dbus
 
 ```
 ```shell
