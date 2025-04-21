@@ -1,6 +1,12 @@
 # doom-emacs-windows
 https://github.com/emacs-mirror/emacs/blob/master/nt/INSTALL.W64
 ```shell
+mkdir emacs
+```
+```shell
+cd emacs
+```
+```shell
 git config --global core.autocrlf false
 ```
 ```shell
