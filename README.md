@@ -13,10 +13,10 @@ git config --global core.autocrlf false
 git clone --branch emacs-30.2 --depth 1 https://github.com/emacs-mirror/emacs.git .
 ```
 ```shell
-./autogen.sh
+sed -i 's/\r$//' configure.ac autogen.sh
 ```
 ```shell
-sed -i 's/\r$//' configure.ac autogen.sh
+./autogen.sh
 ```
 ```shell
 ./configure --prefix=/c/emacs \
