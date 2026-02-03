@@ -16,6 +16,9 @@ git clone --branch emacs-30.1 --depth 1 https://github.com/emacs-mirror/emacs.gi
 ./autogen.sh
 ```
 ```shell
+sed -i 's/\r$//' configure.ac autogen.sh
+```
+```shell
 ./configure --prefix=/c/emacs \
             --with-native-compilation \
             --without-dbus
